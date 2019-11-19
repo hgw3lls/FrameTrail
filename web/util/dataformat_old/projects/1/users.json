@@ -1,0 +1,85 @@
+{
+    "user-increment": 9,
+    "user": {
+        "2": {
+            "name": "demo",
+            "mail": "demo@frametrail.org",
+            "registrationDate": 1458826938,
+            "passwd": "1b08999e8f4044ec767171b24d3d9098",
+            "role": "admin",
+            "active": 1,
+            "lastLogin": 1498047839,
+            "color": "339966"
+        },
+        "3": {
+            "name": "user 1",
+            "mail": "user1@frametrail.org",
+            "registrationDate": 1459323529,
+            "passwd": "3d1b86f25008ea161363a56447c26da9",
+            "role": "user",
+            "active": 1,
+            "lastLogin": 1459331883,
+            "color": "16a09c"
+        },
+        "4": {
+            "name": "user 2",
+            "mail": "user2@frametrail.org",
+            "registrationDate": 1459323546,
+            "passwd": "e7f77daf4c485df0e736d14f149b1525",
+            "role": "user",
+            "active": 1,
+            "lastLogin": 1459324945,
+            "color": "cf910d"
+        },
+        "5": {
+            "name": "user 3",
+            "mail": "user3@frametrail.org",
+            "registrationDate": 1459323561,
+            "passwd": "e0ee65585e92e1b2384db0e4acf89ae7",
+            "role": "user",
+            "active": 1,
+            "lastLogin": 1459323833,
+            "color": "cd4436"
+        },
+        "6": {
+            "name": "user 4",
+            "mail": "user4@frametrail.org",
+            "registrationDate": 1459323575,
+            "passwd": "0a581b88c3862f09379cd4e2911ee58e",
+            "role": "user",
+            "active": 1,
+            "lastLogin": 1459323921,
+            "color": "0073a6"
+        },
+        "7": {
+            "name": "user 5",
+            "mail": "user5@frametrail.org",
+            "registrationDate": 1459323593,
+            "passwd": "e202a67bd2169df657784782875030b3",
+            "role": "user",
+            "active": 1,
+            "lastLogin": 1459323961,
+            "color": "8b5180"
+        },
+        "8": {
+            "name": "user 6",
+            "mail": "user6@frametrail.org",
+            "registrationDate": 1459323605,
+            "passwd": "e1b137f9bbcb85652b040ad66932ab4f",
+            "role": "user",
+            "active": 1,
+            "lastLogin": "",
+            "color": ""
+        },
+        "9": {
+            "name": "test",
+            "mail": "test@frametrail.org",
+            "registrationDate": 1459323624,
+            "passwd": "e9ddd3c1a995a404c8957dc6c9f5246e",
+            "role": "user",
+            "active": 1,
+            "lastLogin": 1459324077,
+            "color": "CC3399"
+        }
+    }
+}

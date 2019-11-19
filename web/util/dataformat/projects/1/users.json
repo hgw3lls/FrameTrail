@@ -1,0 +1,25 @@
+{
+    "user-increment": 4,
+    "user": {
+        "2": {
+            "name": "test",
+            "mail": "test@test.de",
+            "registrationDate": 1490622933,
+            "passwd": "8c1bbc228cb3e8ed7b2390473f320d08",
+            "role": "admin",
+            "active": 1,
+            "lastLogin": 1503688448,
+            "color": "597081"
+        },
+        "4": {
+            "name": "demo",
+            "mail": "demo@frametrail.org",
+            "registrationDate": 1501091564,
+            "passwd": "ff942990fb24b9da5b72c7df2a04faa9",
+            "role": "admin",
+            "active": 1,
+            "lastLogin": 1503849841,
+            "color": "597081"
+        }
+    }
+}

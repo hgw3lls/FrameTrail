@@ -1,0 +1,9 @@
+{
+    "name": "Example Project",
+    "description": "Lorem Ipsum Dolor Sit Amet",
+    "created": 1490622150,
+    "userNeedsConfirmation": false,
+    "defaultUserRole": "admin",
+    "defaultHypervideoHidden": false,
+    "theme": null
+}

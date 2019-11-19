@@ -1,0 +1,69 @@
+[
+    {
+        "name": "About Hypertext",
+        "creator": "user 5",
+        "creatorId": "7",
+        "created": 1459323969404,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Hypertext",
+        "thumb": null,
+        "start": 16.2199146576,
+        "end": 18.2879111705,
+        "resourceId": "9",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 6",
+        "creator": "user 5",
+        "creatorId": "7",
+        "created": 1459323975003,
+        "type": "image",
+        "src": "2_1459153861_sample-image-6.jpg",
+        "thumb": "2_1459153861_thumb_sample-image-6.png",
+        "start": 4.21985027611,
+        "end": 6.09597082391,
+        "resourceId": "17",
+        "attributes": []
+    },
+    {
+        "name": "Testvideo Green",
+        "creator": "user 5",
+        "creatorId": "7",
+        "created": 1459323980645,
+        "type": "video",
+        "src": "2_1459152919_testvideo-green.webm",
+        "thumb": "2_1459152919_thumb_testvideo-green.png",
+        "start": 8.80000019486,
+        "end": 10.654801191,
+        "resourceId": "6",
+        "attributes": {
+            "alternateVideoFile": "2_1459152919_testvideo-green.mp4"
+        }
+    },
+    {
+        "name": "Sample Image 7",
+        "creator": "user 5",
+        "creatorId": "7",
+        "created": 1459323987225,
+        "type": "image",
+        "src": "2_1459153883_sample-image-7.jpg",
+        "thumb": "2_1459153883_thumb_sample-image-7.png",
+        "start": 9.99993545506,
+        "end": 13.3257855171,
+        "resourceId": "18",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 9",
+        "creator": "user 5",
+        "creatorId": "7",
+        "created": 1459323993600,
+        "type": "image",
+        "src": "2_1459153923_sample-image-9.jpg",
+        "thumb": "2_1459153923_thumb_sample-image-9.png",
+        "start": 23.8796753779,
+        "end": 26.2674651661,
+        "resourceId": "20",
+        "attributes": []
+    }
+]

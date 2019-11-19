@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Testvideo Green",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459246528634,
+        "type": "video",
+        "src": "2_1459152919_testvideo-green.webm",
+        "thumb": "2_1459152919_thumb_testvideo-green.png",
+        "start": 4.40789032192,
+        "end": 7.64034322466,
+        "resourceId": "6",
+        "attributes": {
+            "alternateVideoFile": "2_1459152919_testvideo-green.mp4"
+        }
+    },
+    {
+        "name": "Berlin, Germany",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459246546963,
+        "type": "location",
+        "src": "",
+        "start": 0.91,
+        "end": 4.91,
+        "resourceId": "8",
+        "attributes": {
+            "lat": "52.5170365",
+            "lon": "13.3888599",
+            "boundingBox": [
+                "52.3570365",
+                "52.6770365",
+                "13.2288599",
+                "13.5488599"
+            ]
+        }
+    },
+    {
+        "name": "Big Buck Bunny Info",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459246673721,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Big_Buck_Bunny",
+        "thumb": null,
+        "start": 12.0663169232,
+        "end": 26.0359385589,
+        "resourceId": "23",
+        "attributes": []
+    },
+    {
+        "name": "Blender Foundation",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459246950596,
+        "type": "webpage",
+        "src": "https://www.blender.org/foundation/",
+        "thumb": null,
+        "start": 27.2296497723,
+        "end": 32.1608226222,
+        "resourceId": "24",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 5",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1497439591079,
+        "type": "image",
+        "src": "2_1459153837_sample-image-5.jpg",
+        "thumb": "2_1459153837_thumb_sample-image-5.png",
+        "start": 5.75983264585,
+        "end": 8.25422019236,
+        "resourceId": "16",
+        "attributes": []
+    }
+]

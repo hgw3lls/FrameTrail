@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Sample Image 2",
+        "creator": "user 3",
+        "creatorId": "5",
+        "created": 1459323842114,
+        "type": "image",
+        "src": "2_1459153765_sample-image-2.jpg",
+        "thumb": "2_1459153765_thumb_sample-image-2.png",
+        "start": 26.4799502046,
+        "end": 28.4200294075,
+        "resourceId": "13",
+        "attributes": []
+    },
+    {
+        "name": "Big Buck Bunny Info",
+        "creator": "user 3",
+        "creatorId": "5",
+        "created": 1459323848372,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Big_Buck_Bunny",
+        "thumb": null,
+        "start": 28.8197710015,
+        "end": 30.4187373774,
+        "resourceId": "23",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 3",
+        "creator": "user 3",
+        "creatorId": "5",
+        "created": 1459323855582,
+        "type": "image",
+        "src": "2_1459153782_sample-image-3.jpg",
+        "thumb": "2_1459153782_thumb_sample-image-3.png",
+        "start": 4.66969229605,
+        "end": 8.97624173533,
+        "resourceId": "14",
+        "attributes": []
+    }
+]

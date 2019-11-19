@@ -1,0 +1,34 @@
+{
+    "globalEvents": {
+        "onReady": ""
+    },
+    "timebasedEvents": [
+        {
+            "name": "Custom Code Snippet",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1463733011573,
+            "snippet": "console.log(\"Hello, I am a Great Code Snippet\");",
+            "start": 3.337711527468,
+            "attributes": []
+        },
+        {
+            "name": "Custom Code Snippet",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1463733966622,
+            "snippet": "var test = 'Hello, I am a great Code Snippet';\n\nfunction showTest() {\n  var test2 = \"test123!\";\n  \n  console.log(test, test2);\n}\n\nshowTest();",
+            "start": 7.31,
+            "attributes": []
+        },
+        {
+            "name": "Custom Code Snippet",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1463941363784,
+            "snippet": "console.log(\"Hello, I am a Code Snippet\");",
+            "start": 2.86,
+            "attributes": []
+        }
+    ]
+}

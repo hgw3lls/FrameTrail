@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Custom Text",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459239956778,
+        "type": "text",
+        "src": "",
+        "start": 34.618055555556,
+        "end": 59.696180555556,
+        "attributes": {
+            "text": "&lt;span style=\"color: #fff; font-size: 18px;\"&gt;Define &lt;span style=\"color: orange;\"&gt;duration, position and opacity&lt;/span&gt; of any overlay&lt;/span&gt;",
+            "opacity": 0.99
+        },
+        "position": {
+            "top": 8.2978715287878,
+            "left": 4.7007986839781,
+            "width": 88.854168831034,
+            "height": 26.502662009381
+        },
+        "events": {
+            "onReady": "console.log(\"Overlay ready\");",
+            "onStart": "console.log(\"Start time reached\", this);",
+            "onEnd": "console.log(\"End time reached\");",
+            "onClick": "console.log(\"Overlay clicked\", this);"
+        }
+    },
+    {
+        "name": "Berlin, Germany",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1489048295791,
+        "type": "location",
+        "src": "",
+        "start": 13.223300180775,
+        "end": 17.223301365923,
+        "resourceId": "8",
+        "attributes": {
+            "lat": "52.5170365",
+            "lon": "13.3888599",
+            "boundingBox": [
+                "52.3570365",
+                "52.6770365",
+                "13.2288599",
+                "13.5488599"
+            ]
+        },
+        "position": {
+            "top": 12.524273326096,
+            "left": 7.5242718446602,
+            "width": 49.902914102795,
+            "height": 62.524273326096
+        },
+        "events": {
+            "onStart": "console.log('TEST start');"
+        }
+    },
+    {
+        "name": "Testvideo Blue",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1498047852275,
+        "type": "video",
+        "src": "2_1459152893_testvideo-blue.webm",
+        "thumb": "2_1459152893_thumb_testvideo-blue.png",
+        "start": 28.899305555556,
+        "end": 56.232638888889,
+        "resourceId": "5",
+        "attributes": {
+            "alternateVideoFile": "2_1459152893_testvideo-blue.mp4"
+        },
+        "position": {
+            "top": 47.963362068966,
+            "left": 15.689655172414,
+            "width": 30,
+            "height": 30
+        },
+        "events": []
+    },
+    {
+        "name": "Testvideo Red",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1498047945288,
+        "type": "video",
+        "src": "2_1459152938_testvideo-red.webm",
+        "thumb": "2_1459152938_thumb_testvideo-red.png",
+        "start": 19.565972222222,
+        "end": 23.565972222222,
+        "resourceId": "7",
+        "attributes": {
+            "alternateVideoFile": "2_1459152938_testvideo-red.mp4"
+        },
+        "position": {
+            "top": 12.446120689655,
+            "left": 50.172413793103,
+            "width": 30,
+            "height": 30
+        },
+        "events": []
+    }
+]

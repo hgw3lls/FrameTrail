@@ -1,0 +1,47 @@
+/*******************
+* Generic
+*******************/
+
+body {
+	background: var(--secondary-fg-color);
+}
+
+#HypervideoLayoutContainer {
+	position: absolute;
+	width: calc(100% - 164px);
+	height: calc(100% - 40px);
+	top: 40px;
+	left: 164px;
+	border: 1px solid var(--secondary-bg-color);
+	background: var(--primary-fg-color);
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#HypervideoLayoutContainer * {
+	box-sizing: border-box;
+}
+
+/*******************
+* Media Queries
+*******************/
+
+@media (min-width: 1220px) and (max-width: 2000px) {
+	
+}
+
+@media (min-width: 1010px) and (max-width: 1220px) {
+	
+}
+
+@media (min-width: 650px) and (max-width: 1010px) {
+	
+}
+
+@media (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 480px) {
+	
+}

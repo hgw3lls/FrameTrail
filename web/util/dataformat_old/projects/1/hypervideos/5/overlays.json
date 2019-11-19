@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Testvideo Red",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459156723054,
+        "type": "video",
+        "src": "2_1459152938_testvideo-red.webm",
+        "thumb": "2_1459152938_thumb_testvideo-red.png",
+        "start": 2.92657369892,
+        "end": 15.2921515806,
+        "resourceId": "7",
+        "attributes": {
+            "alternateVideoFile": "2_1459152938_testvideo-red.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": "4.8",
+            "left": "65.5",
+            "width": 31.160572337,
+            "height": 31.0734463277
+        }
+    },
+    {
+        "name": "Testvideo Green",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459156819943,
+        "type": "video",
+        "src": "2_1459152919_testvideo-green.webm",
+        "thumb": "2_1459152919_thumb_testvideo-green.png",
+        "start": 5.86922747312,
+        "end": 16.2891162473,
+        "resourceId": "6",
+        "attributes": {
+            "alternateVideoFile": "2_1459152919_testvideo-green.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": "4.8",
+            "left": "3.5",
+            "width": 30.0476947536,
+            "height": 29.9435028249
+        }
+    }
+]

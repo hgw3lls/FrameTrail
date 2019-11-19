@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Testvideo Red",
+        "creator": "test",
+        "creatorId": "9",
+        "created": 1459324083191,
+        "type": "video",
+        "src": "2_1459152938_testvideo-red.webm",
+        "thumb": "2_1459152938_thumb_testvideo-red.png",
+        "start": 13.62,
+        "end": 17.62,
+        "resourceId": "7",
+        "attributes": {
+            "alternateVideoFile": "2_1459152938_testvideo-red.mp4"
+        }
+    },
+    {
+        "name": "Testvideo Blue",
+        "creator": "test",
+        "creatorId": "9",
+        "created": 1459324087033,
+        "type": "video",
+        "src": "2_1459152893_testvideo-blue.webm",
+        "thumb": "2_1459152893_thumb_testvideo-blue.png",
+        "start": 7.28986571797,
+        "end": 8.86751254226,
+        "resourceId": "5",
+        "attributes": {
+            "alternateVideoFile": "2_1459152893_testvideo-blue.mp4"
+        }
+    },
+    {
+        "name": "Vannevar Bush",
+        "creator": "test",
+        "creatorId": "9",
+        "created": 1459324092384,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Vannevar_Bush",
+        "thumb": null,
+        "start": 20.609966108,
+        "end": 22.7632408277,
+        "resourceId": "10",
+        "attributes": []
+    }
+]

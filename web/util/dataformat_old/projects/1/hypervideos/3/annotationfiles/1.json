@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Sample Image 9",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243098307,
+        "type": "image",
+        "src": "2_1459153923_sample-image-9.jpg",
+        "thumb": "2_1459153923_thumb_sample-image-9.png",
+        "start": 26.3999984546,
+        "end": 34.9660177408,
+        "resourceId": "20",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 2",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243106062,
+        "type": "image",
+        "src": "2_1459153765_sample-image-2.jpg",
+        "thumb": "2_1459153765_thumb_sample-image-2.png",
+        "start": 74.9407744096,
+        "end": 84.9344635768,
+        "resourceId": "13",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 1",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243116902,
+        "type": "image",
+        "src": "2_1459153728_sample-image-1.jpg",
+        "thumb": "2_1459153728_thumb_sample-image-1.png",
+        "start": 194.87693876,
+        "end": 212.008977333,
+        "resourceId": "12",
+        "attributes": []
+    },
+    {
+        "name": "Berlin, Germany",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243128774,
+        "type": "location",
+        "src": "",
+        "start": 205.584462868,
+        "end": 221.288831559,
+        "resourceId": "8",
+        "attributes": {
+            "lat": "52.5170365",
+            "lon": "13.3888599",
+            "boundingBox": [
+                "52.3570365",
+                "52.6770365",
+                "13.2288599",
+                "13.5488599"
+            ]
+        }
+    },
+    {
+        "name": "Sample Image 4",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243141198,
+        "type": "image",
+        "src": "2_1459153812_sample-image-4.JPG",
+        "thumb": "2_1459153812_thumb_sample-image-4.png",
+        "start": 300.512615612,
+        "end": 321.927663828,
+        "resourceId": "15",
+        "attributes": []
+    },
+    {
+        "name": "About Hypertext",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243148693,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Hypertext",
+        "thumb": null,
+        "start": 319.072324066,
+        "end": 347.625721686,
+        "resourceId": "9",
+        "attributes": []
+    },
+    {
+        "name": "Vannevar Bush",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243171435,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Vannevar_Bush",
+        "thumb": null,
+        "start": 343.342712043,
+        "end": 365.471595199,
+        "resourceId": "10",
+        "attributes": []
+    },
+    {
+        "name": " Why Open Education Matters",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243183686,
+        "type": "youtube",
+        "src": "//www.youtube.com/embed/gJWbVt2Nc-I",
+        "thumb": "http://img.youtube.com/vi/gJWbVt2Nc-I/2.jpg",
+        "start": 453.273292882,
+        "end": 473.260671217,
+        "resourceId": "11",
+        "attributes": []
+    },
+    {
+        "name": "Everything is a Remix 4",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243200461,
+        "type": "video",
+        "src": "2_1459154838_everything-is-a-remix-4.webm",
+        "thumb": "2_1459154838_thumb_everything-is-a-remix-4.png",
+        "start": 568.92644759,
+        "end": 606.045864497,
+        "resourceId": "22",
+        "attributes": {
+            "alternateVideoFile": "2_1459154838_everything-is-a-remix-4.mp4"
+        }
+    },
+    {
+        "name": "Sample Image 7",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243216125,
+        "type": "image",
+        "src": "2_1459153883_sample-image-7.jpg",
+        "thumb": "2_1459153883_thumb_sample-image-7.png",
+        "start": 718.819934323,
+        "end": 733.096633133,
+        "resourceId": "18",
+        "attributes": []
+    },
+    {
+        "name": "Testvideo Blue",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243224309,
+        "type": "video",
+        "src": "2_1459152893_testvideo-blue.webm",
+        "thumb": "2_1459152893_thumb_testvideo-blue.png",
+        "start": 760.948046588,
+        "end": 778.793920101,
+        "resourceId": "5",
+        "attributes": {
+            "alternateVideoFile": "2_1459152893_testvideo-blue.mp4",
+            "autoPlay": true
+        }
+    }
+]

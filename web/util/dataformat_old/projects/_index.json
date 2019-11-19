@@ -1,0 +1,23 @@
+{
+    "projects": {
+        "1": {
+            "name": "Demo Project",
+            "description": "This is a demo project used to showcase certain FrameTrail features. On the right hand side you see some example hypervideos, feel free to play around.",
+            "created": 1458826882,
+            "userNeedsConfirmation": false,
+            "defaultUserRole": "user",
+            "defaultHypervideoHidden": false,
+            "theme": null,
+            "overviewMode": null,
+            "defaultHypervideoConfig": {
+                "videolinksVisible": false,
+                "annotationsPosition": "bottom",
+                "overlaysVisible": true,
+                "annotationPreviewVisible": false,
+                "annotationsVisible": true,
+                "slidingMode": "adjust"
+            }
+        }
+    },
+    "project-increment": 3
+}

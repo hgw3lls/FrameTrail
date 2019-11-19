@@ -1,0 +1,303 @@
+{
+    "hypervideo-increment": 19,
+    "hypervideos": {
+        "2": {
+            "name": "Example without video source",
+            "description": "Empty time container (without a video source) and a custom length of 120 seconds.",
+            "thumb": null,
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1458894952,
+            "lastchanged": 1458894952,
+            "hidden": false,
+            "config": {
+                "annotationsVisible": false,
+                "annotationsPosition": "bottom",
+                "annotationTimelineVisible": true,
+                "annotationPreviewVisible": false,
+                "videolinksVisible": false,
+                "videolinkTimelineVisible": true,
+                "overlaysVisible": true,
+                "slidingMode": "adjust",
+                "slidingTrigger": "key",
+                "theme": "CssClassName",
+                "autohideControls": true
+            },
+            "mainAnnotation": "1",
+            "annotationfiles": {
+                "1": {
+                    "name": "main",
+                    "description": "",
+                    "created": 1458894952,
+                    "lastchanged": 1458894952,
+                    "hidden": false,
+                    "owner": "demo",
+                    "ownerId": "2"
+                }
+            },
+            "annotation-increment": 1,
+            "subtitles": []
+        },
+        "3": {
+            "name": "Sintel Movie Example",
+            "description": "Example Hypervideo based on the Sintel Movie by Blender. Includes subtitles, video links and annotations.",
+            "thumb": "2_1458908274_thumb_sintel.png",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1458908582,
+            "lastchanged": 1458908582,
+            "hidden": false,
+            "config": {
+                "annotationsVisible": true,
+                "annotationsPosition": "bottom",
+                "annotationTimelineVisible": true,
+                "annotationPreviewVisible": false,
+                "videolinksVisible": true,
+                "videolinkTimelineVisible": true,
+                "overlaysVisible": true,
+                "slidingMode": "adjust",
+                "slidingTrigger": "key",
+                "theme": "CssClassName",
+                "autohideControls": true,
+                "captionsVisible": true
+            },
+            "mainAnnotation": "1",
+            "annotationfiles": {
+                "1": {
+                    "name": "demo",
+                    "description": "demo's annotations",
+                    "created": 1458908582,
+                    "lastchanged": 1459243230,
+                    "hidden": false,
+                    "owner": "demo",
+                    "ownerId": 2
+                }
+            },
+            "annotation-increment": 1,
+            "subtitles": [
+                {
+                    "src": "en.vtt",
+                    "srclang": "en"
+                },
+                {
+                    "src": "de.vtt",
+                    "srclang": "de"
+                },
+                {
+                    "src": "fr.vtt",
+                    "srclang": "fr"
+                }
+            ]
+        },
+        "4": {
+            "name": "Big Buck Bunny Example",
+            "description": "Based on the famous Big Buck Bunny Trailer",
+            "thumb": "2_1458909015_thumb_big-buck-bunny.png",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1458909038,
+            "lastchanged": 1458909038,
+            "hidden": false,
+            "config": {
+                "annotationsVisible": false,
+                "annotationsPosition": "bottom",
+                "annotationTimelineVisible": true,
+                "annotationPreviewVisible": true,
+                "videolinksVisible": false,
+                "videolinkTimelineVisible": true,
+                "overlaysVisible": true,
+                "slidingMode": "adjust",
+                "slidingTrigger": "key",
+                "theme": "CssClassName",
+                "autohideControls": true,
+                "captionsVisible": true
+            },
+            "mainAnnotation": "1",
+            "annotationfiles": {
+                "1": {
+                    "name": "demo",
+                    "description": "demo's annotations",
+                    "created": 1458909038,
+                    "lastchanged": 1459246959,
+                    "hidden": false,
+                    "owner": "demo",
+                    "ownerId": 2
+                }
+            },
+            "annotation-increment": 1,
+            "subtitles": [
+                {
+                    "src": "en.vtt",
+                    "srclang": "en"
+                }
+            ]
+        },
+        "5": {
+            "name": "Video Synchronization Example 1",
+            "description": "Example with 3 testvideos synchronized to one main video",
+            "thumb": "2_1459152893_thumb_testvideo-blue.png",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459154954,
+            "lastchanged": 1459154954,
+            "hidden": false,
+            "config": {
+                "annotationsVisible": false,
+                "annotationsPosition": "bottom",
+                "annotationTimelineVisible": true,
+                "annotationPreviewVisible": false,
+                "videolinksVisible": false,
+                "videolinkTimelineVisible": true,
+                "overlaysVisible": true,
+                "slidingMode": "adjust",
+                "slidingTrigger": "key",
+                "theme": "CssClassName",
+                "autohideControls": true,
+                "captionsVisible": true
+            },
+            "mainAnnotation": "1",
+            "annotationfiles": {
+                "1": {
+                    "name": "main",
+                    "description": "",
+                    "created": 1459154954,
+                    "lastchanged": 1459154954,
+                    "hidden": false,
+                    "owner": "demo",
+                    "ownerId": "2"
+                }
+            },
+            "annotation-increment": 1,
+            "subtitles": []
+        },
+        "6": {
+            "name": "Video Synchronization Example 2",
+            "description": "Empty video / time container with 3 synchronized videos",
+            "thumb": null,
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459157612,
+            "lastchanged": 1459157612,
+            "hidden": false,
+            "config": {
+                "annotationsVisible": false,
+                "annotationsPosition": "bottom",
+                "annotationTimelineVisible": true,
+                "annotationPreviewVisible": false,
+                "videolinksVisible": false,
+                "videolinkTimelineVisible": true,
+                "overlaysVisible": true,
+                "slidingMode": "adjust",
+                "slidingTrigger": "key",
+                "theme": "CssClassName",
+                "autohideControls": true
+            },
+            "mainAnnotation": "1",
+            "annotationfiles": {
+                "1": {
+                    "name": "main",
+                    "description": "",
+                    "created": 1459157612,
+                    "lastchanged": 1459157612,
+                    "hidden": false,
+                    "owner": "demo",
+                    "ownerId": "2"
+                }
+            },
+            "annotation-increment": 1,
+            "subtitles": []
+        },
+        "7": {
+            "name": "Multiple Users Annotation Example",
+            "description": "Big Buck Bunny Trailer, annotated by multiple users. See dropdown menu in the sidebar to switch users, go to \"Edit\" > \"Annotations\" > \"Choose Annotations of other Users\" to compare and re-use other annotations.",
+            "thumb": "2_1458909015_thumb_big-buck-bunny.png",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459323411,
+            "lastchanged": 1459323411,
+            "hidden": false,
+            "config": {
+                "annotationsVisible": true,
+                "annotationsPosition": "bottom",
+                "annotationTimelineVisible": true,
+                "annotationPreviewVisible": false,
+                "videolinksVisible": false,
+                "videolinkTimelineVisible": true,
+                "overlaysVisible": true,
+                "slidingMode": "adjust",
+                "slidingTrigger": "key",
+                "theme": "CssClassName",
+                "autohideControls": true,
+                "captionsVisible": false
+            },
+            "mainAnnotation": "1",
+            "annotationfiles": {
+                "1": {
+                    "name": "demo",
+                    "description": "demo's annotations",
+                    "hidden": false,
+                    "owner": "demo",
+                    "ownerId": 2,
+                    "created": 1459323411,
+                    "lastchanged": 1497439639
+                },
+                "2": {
+                    "name": "user 1",
+                    "description": "user 1's annotations",
+                    "created": 1459323745,
+                    "lastchanged": 1459323745,
+                    "owner": "user 1",
+                    "ownerId": 3,
+                    "hidden": false
+                },
+                "3": {
+                    "name": "user 2",
+                    "description": "user 2's annotations",
+                    "created": 1459323804,
+                    "lastchanged": 1459324970,
+                    "owner": "user 2",
+                    "ownerId": 4,
+                    "hidden": false
+                },
+                "4": {
+                    "name": "user 3",
+                    "description": "user 3's annotations",
+                    "created": 1459323862,
+                    "lastchanged": 1459323862,
+                    "owner": "user 3",
+                    "ownerId": 5,
+                    "hidden": false
+                },
+                "5": {
+                    "name": "user 4",
+                    "description": "user 4's annotations",
+                    "created": 1459323933,
+                    "lastchanged": 1459323933,
+                    "owner": "user 4",
+                    "ownerId": 6,
+                    "hidden": false
+                },
+                "6": {
+                    "name": "user 5",
+                    "description": "user 5's annotations",
+                    "created": 1459323998,
+                    "lastchanged": 1459323998,
+                    "owner": "user 5",
+                    "ownerId": 7,
+                    "hidden": false
+                },
+                "7": {
+                    "name": "test",
+                    "description": "test's annotations",
+                    "created": 1459324096,
+                    "lastchanged": 1459324096,
+                    "owner": "test",
+                    "ownerId": 9,
+                    "hidden": false
+                }
+            },
+            "annotation-increment": 7,
+            "subtitles": []
+        }
+    }
+}

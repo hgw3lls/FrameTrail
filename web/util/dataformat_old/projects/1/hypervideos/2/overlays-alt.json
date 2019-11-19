@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Sample Image 6",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459239564045,
+        "type": "image",
+        "src": "2_1459153861_sample-image-6.jpg",
+        "thumb": "2_1459153861_thumb_sample-image-6.png",
+        "start": 6.17363344051,
+        "end": 15.5305466238,
+        "resourceId": "17",
+        "attributes": [],
+        "position": {
+            "top": 16.2632962491,
+            "left": 56.2123237772,
+            "width": 32.9787234043,
+            "height": 37.2340425532
+        }
+    },
+    {
+        "name": "Custom Text",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459239597875,
+        "type": "text",
+        "src": "",
+        "start": 0,
+        "end": 22.3561643836,
+        "attributes": {
+            "text": "&lt;div style=\"color: #fff; font-size: 18px;\"&gt;Synchronize Images, Videos, Maps, etc. and custom text like this with an empty video / time container&lt;/div&gt;"
+        },
+        "position": {
+            "top": 14.2817999187,
+            "left": 6.24656865781,
+            "width": 33.607907743,
+            "height": 25
+        }
+    },
+    {
+        "name": "Sample Image 3",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459239892772,
+        "type": "image",
+        "src": "2_1459153782_sample-image-3.jpg",
+        "thumb": "2_1459153782_thumb_sample-image-3.png",
+        "start": 12.6190063157,
+        "end": 24.4411510411,
+        "resourceId": "14",
+        "attributes": [],
+        "position": {
+            "top": 42.003011129,
+            "left": 39.5281136754,
+            "width": 36.8975903614,
+            "height": 49.0963855422
+        }
+    },
+    {
+        "name": "Custom Text",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459239956778,
+        "type": "text",
+        "src": "",
+        "start": 25.8520900322,
+        "end": 50.9324758842,
+        "attributes": {
+            "text": "&lt;span style=\"color: #fff; font-size: 18px;\"&gt;Define &lt;span style=\"color: orange;\"&gt;position, duration and opacity&lt;/span&gt; of any overlay&lt;/span&gt;",
+            "opacity": 0.99
+        },
+        "position": {
+            "top": 7.77108525655,
+            "left": 5.23343373494,
+            "width": 88.8554216867,
+            "height": 26.5060240964
+        }
+    },
+    {
+        "name": "Berlin, Germany",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459240124285,
+        "type": "location",
+        "src": "",
+        "start": 29.038584424,
+        "end": "53.8",
+        "resourceId": "8",
+        "attributes": {
+            "lat": "52.5170365",
+            "lon": "13.3888599",
+            "boundingBox": [
+                "52.3570365",
+                "52.6770365",
+                "13.2288599",
+                "13.5488599"
+            ]
+        },
+        "position": {
+            "top": 31.8674707987,
+            "left": 5.53714798157,
+            "width": 42.921686747,
+            "height": 56.6265060241
+        }
+    },
+    {
+        "name": "Sample Image 5",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459240158300,
+        "type": "image",
+        "src": "2_1459153837_sample-image-5.jpg",
+        "thumb": "2_1459153837_thumb_sample-image-5.png",
+        "start": 36.8488745981,
+        "end": 48.5209003215,
+        "resourceId": "16",
+        "attributes": {
+            "opacity": 0.65
+        },
+        "position": {
+            "top": 24.3373503168,
+            "left": 34.9071272885,
+            "width": 47.8915662651,
+            "height": 56.6265060241
+        }
+    },
+    {
+        "name": "Sample Image 10",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459240182462,
+        "type": "image",
+        "src": "2_1459153945_sample-image-10.jpg",
+        "thumb": "2_1459153945_thumb_sample-image-10.png",
+        "start": 39.0675241158,
+        "end": "53.8",
+        "resourceId": "21",
+        "attributes": {
+            "opacity": 0.63
+        },
+        "position": {
+            "top": 47.3870948053,
+            "left": 60.0026875158,
+            "width": 38.3870967742,
+            "height": 49.3548387097
+        }
+    },
+    {
+        "name": "Custom Text",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459240289089,
+        "type": "text",
+        "src": "",
+        "start": 54.7909967846,
+        "end": 100.418006431,
+        "attributes": {
+            "text": "&lt;span style=\"color: #fff; font-size: 18px;\"&gt;Synchronize videos with the main timeline or let the user control video playback&lt;/span&gt;"
+        },
+        "position": {
+            "top": 6.70967840379,
+            "left": 2.0564516129,
+            "width": 95.1612903226,
+            "height": 21.6129032258
+        }
+    },
+    {
+        "name": "Custom Text",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459240408963,
+        "type": "text",
+        "src": "",
+        "start": 102.249202422,
+        "end": 120.094861586,
+        "attributes": {
+            "text": "&lt;span style=\"color: #fff; font-size: 22px;\"&gt;just click \"Edit\" in the left sidebar to try and change things&lt;/span&gt;"
+        },
+        "position": {
+            "top": 42.1935493715,
+            "left": 7.37903225806,
+            "width": 89.0322580645,
+            "height": 46.1290322581
+        }
+    },
+    {
+        "name": "Testvideo Blue",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459242712466,
+        "type": "video",
+        "src": "2_1459152893_testvideo-blue.webm",
+        "thumb": "2_1459152893_thumb_testvideo-blue.png",
+        "start": 56.8199349063,
+        "end": 75.4372982504,
+        "resourceId": "5",
+        "attributes": {
+            "alternateVideoFile": "2_1459152893_testvideo-blue.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": 39.2903235651,
+            "left": 6.73655848349,
+            "width": 38.064516129,
+            "height": 43.5483870968
+        }
+    },
+    {
+        "name": "Testvideo Green",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459242744393,
+        "type": "video",
+        "src": "2_1459152919_testvideo-green.webm",
+        "thumb": "2_1459152919_thumb_testvideo-green.png",
+        "start": 63.8585209003,
+        "end": 96.077170418,
+        "resourceId": "6",
+        "attributes": {
+            "alternateVideoFile": "2_1459152919_testvideo-green.mp4",
+            "opacity": 1
+        },
+        "position": {
+            "top": 26.7096784038,
+            "left": 55.9327943863,
+            "width": 36.935483871,
+            "height": 42.5806451613
+        }
+    },
+    {
+        "name": "Testvideo Red",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459242839441,
+        "type": "video",
+        "src": "2_1459152938_testvideo-red.webm",
+        "thumb": "2_1459152938_thumb_testvideo-red.png",
+        "start": 79.0064300831,
+        "end": 98.0096455172,
+        "resourceId": "7",
+        "attributes": {
+            "alternateVideoFile": "2_1459152938_testvideo-red.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": 32.9032258065,
+            "left": 0,
+            "width": 59.3548387097,
+            "height": 67.0967741935
+        }
+    }
+]

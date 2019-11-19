@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Testvideo Blue",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459157623690,
+        "type": "video",
+        "src": "2_1459152893_testvideo-blue.webm",
+        "thumb": "2_1459152893_thumb_testvideo-blue.png",
+        "start": 0,
+        "end": 14.192468317972,
+        "resourceId": "5",
+        "attributes": {
+            "alternateVideoFile": "2_1459152893_testvideo-blue.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": 10.3812075676,
+            "left": 5.26595825845,
+            "width": 29.3882978723,
+            "height": 34.0425531915
+        },
+        "events": []
+    },
+    {
+        "name": "Testvideo Red",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459157703988,
+        "type": "video",
+        "src": "2_1459152938_testvideo-red.webm",
+        "thumb": "2_1459152938_thumb_testvideo-red.png",
+        "start": "10",
+        "end": "24",
+        "resourceId": "7",
+        "attributes": {
+            "alternateVideoFile": "2_1459152938_testvideo-red.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": 49.2018090673,
+            "left": 53.9784167186,
+            "width": 40.0602409639,
+            "height": 45.1807228916
+        },
+        "events": []
+    },
+    {
+        "name": "Testvideo Green",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459157750538,
+        "type": "video",
+        "src": "2_1459152919_testvideo-green.webm",
+        "thumb": "2_1459152919_thumb_testvideo-green.png",
+        "start": 12.2095392951,
+        "end": 32.0937411148,
+        "resourceId": "6",
+        "attributes": {
+            "alternateVideoFile": "2_1459152919_testvideo-green.mp4",
+            "opacity": 0.63,
+            "autoPlay": true
+        },
+        "position": {
+            "top": 18.6746987952,
+            "left": 11.5612443671,
+            "width": 59.6385542169,
+            "height": 67.4698795181
+        },
+        "events": []
+    },
+    {
+        "name": "Testvideo Blue",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459157844536,
+        "type": "video",
+        "src": "2_1459152893_testvideo-blue.webm",
+        "thumb": "2_1459152893_thumb_testvideo-blue.png",
+        "start": 25.1397841385,
+        "end": 40.0281216075,
+        "resourceId": "5",
+        "attributes": {
+            "alternateVideoFile": "2_1459152893_testvideo-blue.mp4",
+            "autoPlay": true
+        },
+        "position": {
+            "top": 6.86747079872,
+            "left": 62.3493975904,
+            "width": 26.8072289157,
+            "height": 30.421686747
+        },
+        "events": []
+    },
+    {
+        "name": "Everything is a Remix 4",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1497461928059,
+        "type": "video",
+        "src": "2_1459154838_everything-is-a-remix-4.webm",
+        "thumb": "2_1459154838_thumb_everything-is-a-remix-4.png",
+        "start": 0,
+        "end": 4,
+        "resourceId": "22",
+        "attributes": {
+            "alternateVideoFile": "2_1459154838_everything-is-a-remix-4.mp4"
+        },
+        "position": {
+            "top": 48.67039295393,
+            "left": 7.0460704607046,
+            "width": 30,
+            "height": 30
+        },
+        "events": []
+    }
+]

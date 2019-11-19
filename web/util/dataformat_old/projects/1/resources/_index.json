@@ -1,0 +1,313 @@
+{
+    "resources-increment": 38,
+    "resources": {
+        "3": {
+            "name": "Sintel",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1458908274,
+            "description": null,
+            "src": "2_1458908274_sintel.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1458908274_sintel.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1458908274_thumb_sintel.png"
+        },
+        "4": {
+            "name": "Big Buck Bunny",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1458909015,
+            "description": null,
+            "src": "2_1458909015_big-buck-bunny.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1458909015_big-buck-bunny.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1458909015_thumb_big-buck-bunny.png"
+        },
+        "5": {
+            "name": "Testvideo Blue",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459152893,
+            "description": null,
+            "src": "2_1459152893_testvideo-blue.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1459152893_testvideo-blue.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1459152893_thumb_testvideo-blue.png"
+        },
+        "6": {
+            "name": "Testvideo Green",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459152919,
+            "description": null,
+            "src": "2_1459152919_testvideo-green.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1459152919_testvideo-green.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1459152919_thumb_testvideo-green.png"
+        },
+        "7": {
+            "name": "Testvideo Red",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459152938,
+            "description": null,
+            "src": "2_1459152938_testvideo-red.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1459152938_testvideo-red.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1459152938_thumb_testvideo-red.png"
+        },
+        "8": {
+            "name": "Berlin, Germany",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459152979,
+            "description": null,
+            "type": "location",
+            "src": "",
+            "attributes": {
+                "lat": "52.5170365",
+                "lon": "13.3888599",
+                "boundingBox": [
+                    "52.3570365",
+                    "52.6770365",
+                    "13.2288599",
+                    "13.5488599"
+                ]
+            }
+        },
+        "9": {
+            "name": "About Hypertext",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153070,
+            "description": null,
+            "src": "https://en.wikipedia.org/wiki/Hypertext",
+            "type": "wikipedia",
+            "attributes": [],
+            "thumb": null
+        },
+        "10": {
+            "name": "Vannevar Bush",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153123,
+            "description": null,
+            "src": "https://en.wikipedia.org/wiki/Vannevar_Bush",
+            "type": "wikipedia",
+            "attributes": [],
+            "thumb": null
+        },
+        "11": {
+            "name": " Why Open Education Matters",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153406,
+            "description": null,
+            "src": "//www.youtube.com/embed/gJWbVt2Nc-I",
+            "type": "youtube",
+            "attributes": [],
+            "thumb": "http://img.youtube.com/vi/gJWbVt2Nc-I/2.jpg"
+        },
+        "12": {
+            "name": "Sample Image 1",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153728,
+            "description": null,
+            "src": "2_1459153728_sample-image-1.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153728_thumb_sample-image-1.png"
+        },
+        "13": {
+            "name": "Sample Image 2",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153765,
+            "description": null,
+            "src": "2_1459153765_sample-image-2.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153765_thumb_sample-image-2.png"
+        },
+        "14": {
+            "name": "Sample Image 3",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153782,
+            "description": null,
+            "src": "2_1459153782_sample-image-3.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153782_thumb_sample-image-3.png"
+        },
+        "15": {
+            "name": "Sample Image 4",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153812,
+            "description": null,
+            "src": "2_1459153812_sample-image-4.JPG",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153812_thumb_sample-image-4.png"
+        },
+        "16": {
+            "name": "Sample Image 5",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153837,
+            "description": null,
+            "src": "2_1459153837_sample-image-5.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153837_thumb_sample-image-5.png"
+        },
+        "17": {
+            "name": "Sample Image 6",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153861,
+            "description": null,
+            "src": "2_1459153861_sample-image-6.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153861_thumb_sample-image-6.png"
+        },
+        "18": {
+            "name": "Sample Image 7",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153883,
+            "description": null,
+            "src": "2_1459153883_sample-image-7.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153883_thumb_sample-image-7.png"
+        },
+        "19": {
+            "name": "Sample Image 8",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153906,
+            "description": null,
+            "src": "2_1459153906_sample-image-8.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153906_thumb_sample-image-8.png"
+        },
+        "20": {
+            "name": "Sample Image 9",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153923,
+            "description": null,
+            "src": "2_1459153923_sample-image-9.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153923_thumb_sample-image-9.png"
+        },
+        "21": {
+            "name": "Sample Image 10",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459153945,
+            "description": null,
+            "src": "2_1459153945_sample-image-10.jpg",
+            "type": "image",
+            "attributes": [],
+            "thumb": "2_1459153945_thumb_sample-image-10.png"
+        },
+        "22": {
+            "name": "Everything is a Remix 4",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459154838,
+            "description": null,
+            "src": "2_1459154838_everything-is-a-remix-4.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1459154838_everything-is-a-remix-4.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1459154838_thumb_everything-is-a-remix-4.png"
+        },
+        "23": {
+            "name": "Big Buck Bunny Info",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459246669,
+            "description": null,
+            "src": "https://en.wikipedia.org/wiki/Big_Buck_Bunny",
+            "type": "wikipedia",
+            "attributes": [],
+            "thumb": null
+        },
+        "24": {
+            "name": "Blender Foundation",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1459246944,
+            "description": null,
+            "src": "https://www.blender.org/foundation/",
+            "type": "webpage",
+            "attributes": [],
+            "thumb": null
+        },
+        "31": {
+            "name": "test",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1465481797,
+            "description": null,
+            "src": "2_1465481797_test.webm",
+            "attributes": {
+                "alternateVideoFile": "2_1465481797_test.mp4"
+            },
+            "type": "video",
+            "thumb": "2_1465481797_thumb_test.png"
+        },
+        "32": {
+            "name": "Test",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1465554766,
+            "description": null,
+            "src": "https://en.wikipedia.org/wiki/History_of_Slovakia#Slovak_National_Movement",
+            "type": "wikipedia",
+            "attributes": [],
+            "thumb": null
+        },
+        "35": {
+            "name": "vimeo test",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1466683413,
+            "description": null,
+            "src": "//player.vimeo.com/video/170405381",
+            "type": "vimeo",
+            "attributes": [],
+            "thumb": null
+        },
+        "36": {
+            "name": "Merz Akademie",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1466771416,
+            "description": null,
+            "src": "http://merz-akademie.de",
+            "type": "webpage",
+            "attributes": [],
+            "thumb": null
+        }
+    }
+}

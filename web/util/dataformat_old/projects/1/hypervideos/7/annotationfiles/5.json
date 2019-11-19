@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Testvideo Red",
+        "creator": "user 4",
+        "creatorId": "6",
+        "created": 1459323927438,
+        "type": "video",
+        "src": "2_1459152938_testvideo-red.webm",
+        "thumb": "2_1459152938_thumb_testvideo-red.png",
+        "start": 13.5329406677,
+        "end": 16.3258019378,
+        "resourceId": "7",
+        "attributes": {
+            "alternateVideoFile": "2_1459152938_testvideo-red.mp4"
+        }
+    }
+]

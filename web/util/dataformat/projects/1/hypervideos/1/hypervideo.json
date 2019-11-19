@@ -1,0 +1,475 @@
+{
+    "meta": {
+        "name": "Big Buck Bunny Hypervideo",
+        "description": "Lorem Ipsum Dolor Sit Amet",
+        "thumb": "2_1458909015_thumb_big-buck-bunny.png",
+        "creator": "test",
+        "creatorId": "2",
+        "created": 1490624549,
+        "lastchanged": 1503910710588
+    },
+    "config": {
+        "slidingMode": "adjust",
+        "slidingTrigger": "key",
+        "autohideControls": true,
+        "captionsVisible": false,
+        "hidden": false,
+        "theme": "bright",
+        "layoutArea": {
+            "areaTop": [
+                {
+                    "type": "TimedContent",
+                    "contentSize": "small",
+                    "name": "Timed 1zwei",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": ""
+                    },
+                    "onClickContentItem": "",
+                    "html": "",
+                    "transcriptSource": ""
+                }
+            ],
+            "areaBottom": [
+                {
+                    "type": "TimedContent",
+                    "contentSize": "small",
+                    "name": "Small",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": "a"
+                    },
+                    "onClickContentItem": "",
+                    "html": "",
+                    "transcriptSource": ""
+                },
+                {
+                    "type": "TimedContent",
+                    "name": "Timed 4",
+                    "description": "",
+                    "cssClass": "",
+                    "html": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "text": "",
+                        "users": []
+                    },
+                    "transcriptSource": "",
+                    "contentSize": "medium",
+                    "onClickContentItem": ""
+                },
+                {
+                    "type": "TimedContent",
+                    "contentSize": "large",
+                    "name": "Timed 5",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": ""
+                    },
+                    "onClickContentItem": "var func = function() {\n\tvar test = 'test';\n  console.log(test);\n  /* HELLO */\n  //hello\n};\n\nfunc();",
+                    "html": "",
+                    "transcriptSource": ""
+                }
+            ],
+            "areaLeft": [
+                {
+                    "type": "TimedContent",
+                    "contentSize": "large",
+                    "name": "Large",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": ""
+                    },
+                    "onClickContentItem": "",
+                    "html": "",
+                    "transcriptSource": ""
+                },
+                {
+                    "type": "TimedContent",
+                    "contentSize": "medium",
+                    "name": "Medium",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": ""
+                    },
+                    "onClickContentItem": "",
+                    "html": "",
+                    "transcriptSource": ""
+                }
+            ],
+            "areaRight": [
+                {
+                    "type": "TimedContent",
+                    "contentSize": "medium",
+                    "name": "Collection",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": ""
+                    },
+                    "onClickContentItem": "",
+                    "html": "",
+                    "transcriptSource": ""
+                },
+                {
+                    "type": "TimedContent",
+                    "contentSize": "small",
+                    "name": "Small",
+                    "description": "",
+                    "cssClass": "",
+                    "collectionFilter": {
+                        "tags": [],
+                        "types": [],
+                        "users": [],
+                        "text": ""
+                    },
+                    "onClickContentItem": "",
+                    "html": "",
+                    "transcriptSource": ""
+                }
+            ]
+        }
+    },
+    "clips": [
+        {
+            "resourceId": "4",
+            "duration": 0,
+            "start": 0,
+            "end": 0,
+            "in": 0,
+            "out": 0
+        }
+    ],
+    "globalEvents": {
+        "onReady": "console.log('Hypervideo Ready');",
+        "onPlay": "console.log(\"Hypervideo Play Event\");",
+        "onPause": "console.log(\"Hypervideo Pause Event\");",
+        "onEnded": "console.log(\"Hypervideo Ended\");"
+    },
+    "customCSS": "#Sidebar {\n\t/*background-color: #00ff00 !important;*/\n}",
+    "contents": [
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:43:39 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=19.73531043956044,21.19638075206044&xywh=percent:21.62162162162162,21.655722326454033,40.302998310810814,51.013133208255155"
+                }
+            },
+            "body": {
+                "type": "Dataset",
+                "frametrail:type": "location",
+                "format": "application/x-frametrail-location",
+                "frametrail:name": "Berlin, Germany",
+                "frametrail:lat": null,
+                "frametrail:long": null,
+                "frametrail:boundingBox": "NaN"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {}
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:44:24 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=22.426661036493698,24.40145691843027&xywh=percent:17.06081081081081,24.06191369606004,30,30"
+                }
+            },
+            "body": {
+                "type": "Video",
+                "frametrail:type": "video",
+                "format": "video/mp4",
+                "source": "2_1459152893_testvideo-blue.mp4",
+                "frametrail:name": "Testvideo Blue"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {
+                "alternateVideoFile": "2_1459152893_testvideo-blue.mp4",
+                "autoPlay": true
+            }
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:45:03 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=6.439759486607142,7.628827051854394&xywh=percent:25.33783783783784,41.47279549718574,30,30"
+                }
+            },
+            "body": {
+                "type": "Text",
+                "frametrail:type": "wikipedia",
+                "format": "text/html",
+                "value": "https://en.wikipedia.org/wiki/Hypertext",
+                "frametrail:name": "About Hypertext"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {}
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:45:13 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=8.309778373969781,9.89173879635989&xywh=percent:16.722972972972975,24.362101313320824,30,30"
+                }
+            },
+            "body": {
+                "type": "Video",
+                "frametrail:type": "youtube",
+                "format": "text/html",
+                "source": "//www.youtube.com/embed/gJWbVt2Nc-I",
+                "frametrail:name": " Why Open Education Matters"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {}
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:45:20 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=10.819664835164835,13.006075807005494&xywh=percent:22.466216216216218,32.76735459662289,30,30"
+                }
+            },
+            "body": {
+                "type": "Image",
+                "frametrail:type": "image",
+                "format": "image/jpg",
+                "source": "2_1459153728_sample-image-1.jpg",
+                "frametrail:name": "Sample Image 1"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {}
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:45:36 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=13.599665135645605,15.423405777815933&xywh=percent:47.46621621621622,47.4765478424015,30,30"
+                }
+            },
+            "body": {
+                "type": "Video",
+                "frametrail:type": "vimeo",
+                "format": "text/html",
+                "source": "//player.vimeo.com/video/170405381",
+                "frametrail:name": "vimeo test"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {}
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:45:43 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "Overlay",
+            "frametrail:tags": [],
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=16.28994230769231,18.44613075206044&xywh=percent:40.37162162162162,28.564727954971858,30,30"
+                }
+            },
+            "body": {
+                "type": "Text",
+                "frametrail:type": "webpage",
+                "format": "text/html",
+                "value": "http://merz-akademie.de",
+                "frametrail:name": "Merz Akademie"
+            },
+            "frametrail:events": {},
+            "frametrail:attributes": {}
+        },
+        {
+            "@context": [
+                "http://www.w3.org/ns/anno.jsonld",
+                {
+                    "frametrail": "http://frametrail.org/ns/"
+                }
+            ],
+            "creator": {
+                "nickname": "test",
+                "type": "Person",
+                "id": "2"
+            },
+            "created": "Wed Aug 09 2017 15:46:19 GMT+0200 (CEST)",
+            "type": "Annotation",
+            "frametrail:type": "CodeSnippet",
+            "target": {
+                "type": "Video",
+                "source": "2_1458909015_big-buck-bunny.mp4",
+                "selector": {
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "type": "FragmentSelector",
+                    "value": "t=25.84"
+                }
+            },
+            "body": {
+                "type": "TextualBody",
+                "frametrail:type": "codesnippet",
+                "format": "text/javascript",
+                "value": "console.log(\"Hello, I am a Code Snippet XXX\");",
+                "frametrail:name": "Custom Code Snippet",
+                "frametrail:thumb": null,
+                "frametrail:resourceId": null
+            },
+            "frametrail:attributes": {}
+        }
+    ],
+    "subtitles": [
+        {
+            "src": "de.vtt",
+            "srclang": "de"
+        },
+        {
+            "src": "en.vtt",
+            "srclang": "en"
+        },
+        {
+            "src": "fr.vtt",
+            "srclang": "fr"
+        }
+    ]
+}

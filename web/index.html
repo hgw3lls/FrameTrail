@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="html5">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="Expires" content="-1">
+
+	<title>FrameTrail</title>
+
+	<link rel="stylesheet" type="text/css" href="_lib/html5reset/html5.reset.css">
+	<link rel="stylesheet" type="text/css" href="_lib/jquery.ui/jquery-ui.min.css">
+
+	<link rel="shortcut icon" href="favico.png">
+
+	<script type="text/javascript" src="_lib/jquery/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="_lib/jquery.form/jquery.form.min.js"></script>
+	<script type="text/javascript" src="_lib/jquery.ui/jquery-ui.min.js"></script>
+
+	<!--
+            [if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]
+        -->
+
+	<link rel="stylesheet" type="text/css" href="_shared/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="../_shared/styles/frametrail-webfont.css">
+	<link rel="stylesheet" type="text/css" href="_shared/styles/generic.css">
+
+	<script type="text/javascript">
+
+		$(document).ready( function() {
+
+			var title = $('.boxTitle'),
+					message = $('#message'),
+					content = $('#content');
+
+			if (!!document.location.host) {
+
+				$.ajax({
+					"type": "POST",
+					url: "_server/ajaxServer.php",
+					data: {"a":"setupCheck"},
+					dataType: "json",
+					success: function(ret) {
+						if (ret["code"] == "1") {
+							$.ajax({
+
+								type:   "GET",
+								url:    '_data/projects/_index.json',
+								cache:  false
+
+							}).done(function(data){
+
+								if  ((!( "projects" in data )) || ( Object.keys(data.projects).length == 0 )) {
+
+									title.html('Installation successful').show();
+									message.html('You did not add any projects yet. Please open the Project Manager to create your first project.').show();
+									content.html('<a href="./projectmanager/"><button type="button">Open Project Manager</button></a>');
+
+
+								} else {
+									for (var firstProjectID in data.projects) break;
+
+									var projectUrl = window.location.href.replace('index.html', '') + 'player/?project=' + firstProjectID;
+									window.location.replace(projectUrl);
+
+									/*
+									title.html('Nothing to see here, please disperse').show();
+									message.html('By design, FrameTrail does not provide an overview of existing projects. Do you want to be redirected to the first project?').show();
+									content.html('<a href="'+ projectUrl +'"><button type="button">Yes, redirect to first project</button></a>');
+									*/
+								}
+
+							}).fail(function(data){
+
+								title.html('Installation successful').show();
+								message.html('You did not add any projects yet. Please open the Project Manager to create your first project.').show();
+								content.html('<a href="./projectmanager/"><button type="button">Open Project Manager</button></a>');
+
+							});
+						} else if (ret["code"] == 6) {
+							title.html('Server does not fulfil requirements').show();
+							message.html('Your server uses an <b>outdated PHP version</b>. <br><br>In order to perform certain JSON operations, FrameTrail requires at least <b>PHP 5.6.20</b> <br>(see <a href="http://frametrail.org/installation.html"></a>). <br><br>Please update PHP or ask your admin to do so.').show();
+							content.html('');
+						} else {
+							
+							content.html('<form id="initSetup"><input name="masterpassword" placeholder="Master Password" type="password"><button type="submit" id="submitBtn">OK</button><div id="returnFromSetup" class="message error" style="margin-top: 10px;"></div></form>');
+							
+							if ((ret["code"] == 2) || (ret["code"] == 3)) {
+								title.html('Welcome to FrameTrail!').show();
+								message.html('Please define a Master Password to start the setup process').show();
+								$('input[name="masterpassword"]').show();
+								$('#submitBtn').text('OK');
+							} else if ((ret["code"] == 7) || (ret["code"] == 8)) {
+								title.html('Directory not writable').show();
+								message.html(ret["string"]).show();
+								$('input[name="masterpassword"]').hide();
+								$('#submitBtn').hide();
+							} else {
+								title.html('Installation corrupted').show();
+								message.html('Your installation contains errors in the file / data structure. Please click "Fix Installation" to auto-fix the data structure:').show();
+								$('input[name="masterpassword"]').hide();
+								$('#submitBtn').text('Fix Installation');
+							}
+
+							$("input[name='ignorePassword']").val("0");
+							$("#initSetup").ajaxForm({
+								url: "_server/ajaxServer.php",
+								data: {"a": "setupInit"},
+								dataType:"json",
+								success: function(ret) {
+									if ((ret["code"] == 2) || (ret["code"] == 3)) {
+										$("#returnFromSetup").show().append(ret["string"]+"<br>");
+									} else {
+										location.reload();
+									}
+								}
+							});
+						}
+					}
+				})
+
+
+			} else {
+
+				title.html('No Webserver').show();
+				message.addClass('error').html('This application needs to run on a webserver. You can also use a local server environment like <a href="https://www.apachefriends.org/index.html">XAMPP</a> (Windows, Linux, OS X) or <a href="https://www.mamp.info/">MAMP</a> (Windows, OS X).').show();
+
+			}
+
+
+		});
+
+	</script>
+
+
+</head>
+<body>
+<div class="ui-blocking-overlay">
+	<div class="ui-overlay-box">
+		<div class="boxTitle" style="display: none;"></div>
+		<div id="message" class="message"></div>
+		<div id="content"></div>
+	</div>
+</div>
+</body>
+</html>

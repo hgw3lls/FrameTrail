@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Sample Image 5",
+        "creator": "user 1",
+        "creatorId": "3",
+        "created": 1459323735732,
+        "type": "image",
+        "src": "2_1459153837_sample-image-5.jpg",
+        "thumb": "2_1459153837_thumb_sample-image-5.png",
+        "start": 5.75983264585,
+        "end": 8.25422019236,
+        "resourceId": "16",
+        "attributes": []
+    },
+    {
+        "name": "Sample Image 10",
+        "creator": "user 1",
+        "creatorId": "3",
+        "created": 1459323740981,
+        "type": "image",
+        "src": "2_1459153945_sample-image-10.jpg",
+        "thumb": "2_1459153945_thumb_sample-image-10.png",
+        "start": 18.7398859264,
+        "end": 20.8718410943,
+        "resourceId": "21",
+        "attributes": []
+    }
+]

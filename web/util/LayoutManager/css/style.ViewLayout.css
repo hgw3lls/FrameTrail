@@ -1,0 +1,118 @@
+/*******************
+* ViewLayout
+*******************/
+
+#LayoutManagerContainer {
+	width: 100%;
+	height: 100%;
+	color: var(--primary-fg-color);
+}
+
+#LayoutManagerContainer [class^="icon-"]::before {
+	font-size: 19px;
+}
+
+#LayoutManagerContainer #LayoutManagerMain, #LayoutManagerContainer #LayoutManagerOptions {
+	height: 100%;
+}
+
+#LayoutManagerContainer #LayoutManagerMain {
+	float: left;
+	width: 84%;
+}
+
+#LayoutManagerContainer #LayoutManager {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+	align-items: flex-start;
+	order: 0;
+	flex: 1 1 auto;
+	align-self: auto;
+	width: 100%;
+	height: 100%;
+	padding-right: 10px;
+	border-right: 1px solid var(--secondary-bg-color);
+}
+
+#LayoutManagerContainer #LayoutManagerOptions {
+	float: right;
+	width: 16%;
+	padding-left: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: var(--primary-fg-color);
+}
+
+#LayoutManagerContainer #LayoutManagerOptions .message {
+	position: relative;
+}
+
+#LayoutManagerContainer #LayoutManagerOptions .message:after {
+	position: absolute;
+	content: "";
+	top: 50%;
+	margin-top: -14px;
+	left: -7px;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid transparent;
+	border-right: 6px solid #FF9919;
+}
+
+#LayoutManagerContainer #LayoutManagerOptions .contentViewTemplate, body > .contentViewTemplate {
+	padding: 10px 5px 7px 5px;
+	background: var(--secondary-bg-color);
+	margin-bottom: 10px;
+	cursor: move;
+}
+
+body > .contentViewTemplate {
+	outline: 1px solid var(--primary-bg-color);
+	color: var(--primary-fg-color);
+}
+
+.contentViewTemplate .contentViewTemplateSize {
+	text-align: center;
+	overflow: hidden;
+}
+
+.contentViewTemplate[data-size="small"] .contentViewTemplateSize [class^="icon-"]::before {
+	font-size: 40px !important;
+	line-height: 30px;
+}
+
+.contentViewTemplate[data-size="medium"] .contentViewTemplateSize [class^="icon-"]::before {
+	font-size: 70px !important;
+	line-height: 50px;
+}
+
+.contentViewTemplate[data-size="large"] .contentViewTemplateSize [class^="icon-"]::before {
+	font-size: 100px !important;
+	line-height: 70px;
+}
+
+/*******************
+* Media Queries
+*******************/
+
+@media (min-width: 1220px) and (max-width: 2000px) {
+	
+}
+
+@media (min-width: 1010px) and (max-width: 1220px) {
+	
+}
+
+@media (min-width: 650px) and (max-width: 1010px) {
+	
+}
+
+@media (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 480px) {
+	
+}

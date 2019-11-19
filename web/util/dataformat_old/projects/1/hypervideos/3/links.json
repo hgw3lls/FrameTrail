@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Big Buck Bunny Example",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243017218,
+        "href": "?project=1&hypervideo=4",
+        "start": 97.7715981617,
+        "end": 112.048296972,
+        "attributes": []
+    },
+    {
+        "name": "Video Synchronization Example 1",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243032570,
+        "href": "?project=1&hypervideo=5",
+        "start": 367.613100021,
+        "end": 397.594167522,
+        "attributes": []
+    },
+    {
+        "name": "Video Synchronization Example 2",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243047629,
+        "href": "?project=1&hypervideo=6",
+        "start": 517.518437529,
+        "end": 553.210184554,
+        "attributes": []
+    },
+    {
+        "name": "Big Buck Bunny Example",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1459243058416,
+        "href": "?project=1&hypervideo=4",
+        "start": 755.951202005,
+        "end": 764.517221291,
+        "attributes": []
+    }
+]

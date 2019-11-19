@@ -1,0 +1,194 @@
+/*******************
+* ContentView
+*******************/
+
+#LayoutManager .layoutArea .contentViewPreview {
+	position: absolute;
+	top: 48px;
+	width: calc(100% - 20px);
+	height: calc(100% - 58px);
+	display: none;
+}
+
+#LayoutManager .layoutArea[data-area="areaTop"] .contentViewPreview {
+	top: 10px;
+}
+
+#LayoutManager .layoutArea .contentViewPreview.active {
+	display: block;
+}
+
+#LayoutManager .layoutArea .contentViewPreview, .contentViewAnimationDiv {
+	background: var(--secondary-bg-color);
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.contentViewAnimationDiv {
+	border: 2px solid var(--primary-bg-color);
+	color: var(--primary-fg-color);
+	pointer-events: none;
+}
+
+#LayoutManager .layoutArea .contentViewPreview .contentViewOptions {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	opacity: 0;
+	pointer-events: none;
+	transition-property: all;
+	transition-duration: 300ms;
+}
+
+#LayoutManager .layoutArea .contentViewPreview:hover .contentViewOptions {
+	opacity: 1;
+	pointer-events: all;
+}
+
+#LayoutManager .layoutArea .contentViewPreview .contentViewOptions button {
+	color: var(--primary-fg-color);
+	border-color: var(--primary-fg-color);
+}
+
+#LayoutManager .layoutArea .layoutAreaTabs {
+	position: absolute;
+	display: table-cell;
+	width: calc(100% - 20px);
+	text-align: right;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+}
+
+#LayoutManager .layoutArea[data-area="areaTop"] .layoutAreaTabs {
+	top: auto;
+	bottom: 10px;
+}
+
+#LayoutManager .layoutArea[data-area="areaLeft"] .layoutAreaTabs {
+	text-align: left;
+}
+
+#LayoutManager .layoutArea[data-area="areaRight"] .layoutAreaTabs {
+	text-align: left;
+}
+
+#LayoutManager .layoutArea .layoutAreaTabs .contentViewTab {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 4px;
+	background: var(--secondary-bg-color);
+	height: 34px;
+	cursor: pointer;
+	opacity: .7;
+	transition-property: all;
+	transition-duration: 40ms;
+}
+
+#LayoutManager .layoutArea .layoutAreaTabs .contentViewTab.active {
+	height: 38px;
+	cursor: default;
+	opacity: 1;
+}
+
+#LayoutManager .layoutArea[data-area="areaTop"] .layoutAreaTabs .contentViewTab {
+	vertical-align: bottom;
+}
+
+#LayoutManager .layoutArea[data-area="areaLeft"] .layoutAreaTabs .contentViewTab {
+	margin-left: 0px;
+	margin-right: 4px;
+}
+
+#LayoutManager .layoutArea[data-area="areaRight"] .layoutAreaTabs .contentViewTab {
+	margin-left: 0px;
+	margin-right: 4px;
+}
+
+#LayoutManager .layoutArea[data-area="areaTop"] .layoutAreaTabs .contentViewTab.active {
+	padding-top: 5px;
+}
+
+#LayoutManager .layoutArea .layoutAreaTabs .contentViewTab .contentViewTabName {
+	float: left;
+	font-size: 14px;
+	text-align: left;
+	padding: 6px 8px;
+}
+
+/* Editing UI */
+
+.contentViewEditingUI .formColumn {
+	float: left;
+}
+
+.contentViewEditingUI .formColumn.column1 {
+	width: 25%;
+}
+
+.contentViewEditingUI .formColumn.column2 {
+	width: 50%;
+}
+
+.contentViewEditingUI .formColumn.column3 {
+	width: 75%;
+}
+
+.contentViewEditingUI .formColumn.column4 {
+	width: 100%;
+}
+
+.contentViewEditingUI label {
+	display: block;
+}
+
+.contentViewEditingUI input[type="text"] {
+	box-sizing: border-box;
+	height: 42px;
+}
+.contentViewEditingUI textarea {
+	display: block;
+	box-sizing: border-box;
+	width: 96%;
+	height: 42px;
+}
+.contentViewEditingUI .typeSpecific {
+	display: none;
+}
+
+.contentViewEditingUI .typeSpecific.active {
+	display: block;
+}
+
+.contentViewEditingUI .contentViewData > div[data-value] {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.contentViewEditingUI .contentViewData > div[data-value].active {
+	font-weight: bold;
+}
+
+/*******************
+* Media Queries
+*******************/
+
+@media (min-width: 1220px) and (max-width: 2000px) {
+	
+}
+
+@media (min-width: 1010px) and (max-width: 1220px) {
+	
+}
+
+@media (min-width: 650px) and (max-width: 1010px) {
+	
+}
+
+@media (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 480px) {
+	
+}

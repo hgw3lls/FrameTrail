@@ -1,0 +1,37 @@
+{
+    "globalEvents": {
+        "onReady": "console.log(\"Hypervideo VERY MUCH Ready\");",
+        "onPlay": "console.log(\"Hypervideo Play Event\");",
+        "onPause": "console.log(\"Hypervideo Pause Event\");",
+        "onEnded": "console.log(\"Hypervideo Ended\");"
+    },
+    "timebasedEvents": [
+        {
+            "name": "Custom Code Snippet",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1463733011573,
+            "snippet": "console.log(\"Hello, I am a Great Code Snippet\");",
+            "start": 43.337711527468,
+            "attributes": []
+        },
+        {
+            "name": "Custom Code Snippet",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1463733966622,
+            "snippet": "var test = \"Hello, I am a great Code Snippet\";\n\nfunction showTest() {\n  var test2 = \"test123!\";\n  \n  console.log(test, test2);\n}\n\nshowTest();",
+            "start": 27.31,
+            "attributes": []
+        },
+        {
+            "name": "Custom Code Snippet",
+            "creator": "demo",
+            "creatorId": "2",
+            "created": 1463941363784,
+            "snippet": "console.log(\"Hello, I am a Code Snippet\");",
+            "start": 52.86,
+            "attributes": []
+        }
+    ]
+}

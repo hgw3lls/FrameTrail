@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Berlin, Germany",
+        "creator": "user 2",
+        "creatorId": "4",
+        "created": 1459323781040,
+        "type": "location",
+        "src": "",
+        "start": 14.9204877225,
+        "end": 16.1357021682,
+        "resourceId": "8",
+        "attributes": {
+            "lat": "52.5170365",
+            "lon": "13.3888599",
+            "boundingBox": [
+                "52.3570365",
+                "52.6770365",
+                "13.2288599",
+                "13.5488599"
+            ]
+        }
+    },
+    {
+        "name": "Sample Image 8",
+        "creator": "user 2",
+        "creatorId": "4",
+        "created": 1459323792751,
+        "type": "image",
+        "src": "2_1459153906_sample-image-8.jpg",
+        "thumb": "2_1459153906_thumb_sample-image-8.png",
+        "start": 11.17,
+        "end": 15.17,
+        "resourceId": "19",
+        "attributes": []
+    },
+    {
+        "name": "Vannevar Bush",
+        "creator": "user 2",
+        "creatorId": "4",
+        "created": 1459323800303,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Vannevar_Bush",
+        "thumb": null,
+        "start": 18.2697887708,
+        "end": 20.5296612489,
+        "resourceId": "10",
+        "attributes": []
+    }
+]

@@ -1,0 +1,105 @@
+[
+    {
+        "name": "Berlin, Germany",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1465638857836,
+        "type": "location",
+        "src": "",
+        "start": 4.93970542906,
+        "end": 7.39467973845,
+        "resourceId": "8",
+        "attributes": {
+            "lat": "52.5170365",
+            "lon": "13.3888599",
+            "boundingBox": [
+                "52.3570365",
+                "52.6770365",
+                "13.2288599",
+                "13.5488599"
+            ]
+        },
+        "position": {
+            "top": 17.2961011846,
+            "left": 5.70503542776,
+            "width": 30.0448430493,
+            "height": 30.0531914894
+        }
+    },
+    {
+        "name": "Sample Image 1",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1465638873262,
+        "type": "image",
+        "src": "2_1459153728_sample-image-1.jpg",
+        "thumb": "2_1459153728_thumb_sample-image-1.png",
+        "start": 14.5535012454,
+        "end": 18.5630216717,
+        "resourceId": "12",
+        "attributes": [],
+        "position": {
+            "top": 66.3052202707,
+            "left": 67.7485889499,
+            "width": 30,
+            "height": 29.8192771084
+        }
+    },
+    {
+        "name": "Custom HTML",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1465638885338,
+        "type": "text",
+        "src": "",
+        "start": 11.77,
+        "end": 15.77,
+        "attributes": {
+            "text": ""
+        },
+        "position": {
+            "top": 25.0847466248,
+            "left": 29.2539663163,
+            "width": 30,
+            "height": 30
+        }
+    },
+    {
+        "name": "About Hypertext",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1466693160267,
+        "type": "wikipedia",
+        "src": "https://en.wikipedia.org/wiki/Hypertext",
+        "thumb": null,
+        "start": 6.53,
+        "end": 10.53,
+        "resourceId": "9",
+        "attributes": [],
+        "position": {
+            "top": 14.4161978684,
+            "left": 6.77795410156,
+            "width": 20.9856915739,
+            "height": 65.2542372881
+        }
+    },
+    {
+        "name": "Merz Akademie",
+        "creator": "demo",
+        "creatorId": "2",
+        "created": 1466771422196,
+        "type": "webpage",
+        "src": "http://merz-akademie.de",
+        "thumb": null,
+        "start": 7.7483742446,
+        "end": 11.7578946709,
+        "resourceId": "36",
+        "attributes": [],
+        "position": {
+            "top": 7.53766507079,
+            "left": 30.718072306,
+            "width": 55.8028616852,
+            "height": 82.2033898305
+        }
+    }
+]
